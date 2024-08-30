@@ -6,9 +6,10 @@ name = "pypi"
 [packages]
 fastapi = {extras = ["standard"], version = "*"}
 psycopg = {extras = ["pool", "binary"], version = "*"}
+dependency-injector = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.12"
-python_full_version = "3.12.5"
+python_version = "3.11"
+python_full_version = "3.11.9"
